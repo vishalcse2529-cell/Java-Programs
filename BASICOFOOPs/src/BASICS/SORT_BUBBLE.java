@@ -1,7 +1,7 @@
 package BASICS;
 import java.util.*;
 
-public class BUBBLESORT {
+public class SORT_BUBBLE {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	
