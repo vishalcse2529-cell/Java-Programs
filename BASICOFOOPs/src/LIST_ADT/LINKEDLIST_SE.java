@@ -89,5 +89,6 @@ public class LINKEDLIST_SE {
      System.out.println("After Delete :");
      
      list.display();
+
 }
 }
