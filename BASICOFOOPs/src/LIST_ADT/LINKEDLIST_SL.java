@@ -72,7 +72,7 @@ class Sll{
 		}
 	}
 }
-public class LINKEDLIST_SS {
+public class LINKEDLIST_SL {
 	public static  void main(String[] args) {
 		
 	Sll list = new Sll();
