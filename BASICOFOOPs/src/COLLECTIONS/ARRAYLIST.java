@@ -3,7 +3,7 @@ package COLLECTIONS;
 import java.util.ArrayList;
 // For using ArrayList in Java we need to import this particular package.
 public class ARRAYLIST {
-	public static void Main(String[] args) {
+	public static void main(String[] args) {
 		ArrayList <String>  Names = new ArrayList<>();
 		
 		Names.add("Vishal");
