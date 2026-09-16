@@ -49,3 +49,25 @@ public class ARRAYLIST {
 	}
 
 }
+
+/*
+add()
+add(index, value)
+
+get()
+set()
+
+remove()
+clear()
+
+size()
+isEmpty()
+
+contains()
+indexOf()
+lastIndexOf()
+
+Collections.sort()
+Collections.reverseOrder()
+
+ */
