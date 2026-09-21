@@ -1,4 +1,4 @@
-package BASICS;
+package ARRAYS;
 import java.util.*;
 
 public class ARRAY_GETTING {
