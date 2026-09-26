@@ -10,17 +10,8 @@ public class PROBLEM3 {
 		for(int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
-		
-		int first = arr[0];
-		int second = arr[0];
-		
-		for(int i = 0; i < n; i++) {
-			if(arr[i] < first) {
-				second = first;
-				first = arr[i];
-			}
-		}
-		System.out.println(second);
+		Arrays.sort(arr);
+        System.out.println(arr[1]);
 	}
 
 }
