@@ -29,6 +29,20 @@ public class BASICS2 {
 		
 		for(int i = 0; i < a; i++) {
 			for(int j = 0; j < b; j++) {
+				fg[i][j] = ab[i][j] + cd[i][j];
+			}
+		}
+		
+		System.out.println(Arrays.deepToString(fg));
+		for(int i = 0; i < a; i++) {
+			for(int j = 0; j < b; j++) {
+				fg[i][j] = ab[i][j] - cd[i][j];
+			}
+		}
+		System.out.println(Arrays.deepToString(fg));
+		
+		for(int i = 0; i < a; i++) {
+			for(int j = 0; j < b; j++) {
 				fg[i][j] = ab[i][j] * cd[i][j];
 			}
 		}
